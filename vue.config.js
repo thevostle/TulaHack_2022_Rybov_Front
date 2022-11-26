@@ -1,3 +1,4 @@
-module.exports = {
-	publicPath: process.env.NODE_ENV === 'production' ? '/TulaHack_2022_Rybov_Front/' : '/',
-};
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})

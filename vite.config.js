@@ -11,5 +11,5 @@ export default defineConfig({
 			'@': fileURLToPath(new URL('./src', import.meta.url)),
 		},
 	},
-	publicPath: process.env.NODE_ENV === 'production' ? '/TulaHack_2022_Rybov_Front/' : '/',
+	base: '/TulaHack_2022_Rybov_Front/',
 });
